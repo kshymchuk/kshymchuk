@@ -1,0 +1,13 @@
+- 👋 Hi, I’m @kshymchuk
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+```mermaid
+sequenceDiagram
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+Alice -> Bob:Another authentication Response
+Bob --> Alice: Another authentication Response
+```
