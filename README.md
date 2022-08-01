@@ -1,13 +1,12 @@
-- 👋 Hi, I’m @kshymchuk
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
 ```mermaid
 sequenceDiagram
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-Alice -> Bob:Another authentication Response
-Bob --> Alice: Another authentication Response
+  participant Anybody
+  participant Kostia
+  
+  Anybody->>Kostia: Autosar Support Request
+  loop
+  Kostia->>Kostia: Thinking...
+  end
+  Note right of Kostia: Rational thoughts <br/>prevail!
+  Kostia-->>Anybody: Denied
 ```
